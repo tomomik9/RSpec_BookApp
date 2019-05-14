@@ -8,6 +8,13 @@ ja:
             memo: '内容メモ'
             author: '著者'
             picture: '写真'   # モデルの属性名
+  layouts:
+     application:
+        Edit profile: 'プロフィールを編集'
+        Logout: 'ログアウト'
+        Sign up: '登録'
+        Login: 'ログイン'
+        Logged in as: 'ログインユーザー'
   books: # app/views/booksを示す
      index: # app/views/books/indexを示す
         Books: '書籍一覧'

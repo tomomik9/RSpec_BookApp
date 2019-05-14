@@ -64,3 +64,8 @@ gem 'carrierwave'
 gem 'rails-i18n'
 gem 'kaminari'
 gem 'kaminari-i18n'
+gem 'devise'
+gem 'devise-i18n'
+group :development do #開発環境のみ
+  gem 'letter_opener_web'
+end
