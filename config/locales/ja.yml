@@ -47,7 +47,10 @@ ja:
             Username: 'ユーザー名'
      registrations:
         new:
-            Username: 'ユーザー名'   
+            Username: 'ユーザー名' 
+            Image: '画像'
+        edit:
+            Image: '画像'
   helpers:
      submit:
         create: '登録する'
