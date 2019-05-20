@@ -30,14 +30,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  books: # app/views/booksを示す
-     index: # app/views/books/indexを示す
-        notice: 'Are You Sure?'
-  flash:
-     create:
+  books: 
+    index: 
+      notice: 'Are You Sure?'
+    flash:
+      create:
         notice: 'Successfully created.'
-     update:
+      update:
         notice: 'Successfully updated'
-     destroy:
-        notice: 'Successfully deleted'
-  
+      destroy:
+        notice: 'Successfully deleted'  
