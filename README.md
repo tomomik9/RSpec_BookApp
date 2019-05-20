@@ -1,3 +1,3 @@
 
-# OmniAuth
-OmniAuthによるGitHub認証の機能をBookアプリに実装します。
+# ActiveStorage
+ActiveStorageによる画像アップロードの機能をBookアプリに実装します。
