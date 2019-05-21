@@ -5,6 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable, :confirmable, :omniauthable, 
          omniauth_providers: %i(github)
   
+  has_one_attached :image
+  
   def self.create_unique_string
     SecureRandom.uuid
   end
@@ -16,6 +18,7 @@ class User < ApplicationRecord
       user = User.create(provider: auth.provider,
                       uid:      auth.uid,
                       username: auth.info.name,
+                      avatar_url: auth.info.image,
                       email:    auth.info.email,
                       password: Devise.friendly_token[0, 20]
       )
