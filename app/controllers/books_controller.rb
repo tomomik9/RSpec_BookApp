@@ -22,7 +22,7 @@ class BooksController < ApplicationController
 
   # POST /books
   # POST /books.json
-def create
+  def create
     @book = Book.new(book_params)
 
     respond_to do |format|
@@ -62,12 +62,12 @@ def create
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_book
-      @book = Book.find(params[:id])
-    end
+  def set_book
+    @book = Book.find(params[:id])
+  end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def book_params
-     params.require(:book).permit(:title, :memo, :author, :picture)
-    end
+  def book_params
+   params.require(:book).permit(:title, :memo, :author, :picture)
+  end
 end
