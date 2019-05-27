@@ -1,3 +1,3 @@
 
-# ActiveStorage
-ActiveStorageによる画像アップロードの機能をBookアプリに実装します。
+# RSpec
+RSpecの練習のため、Everyday Railsのチュートリアル用リポジトリです。
